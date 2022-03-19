@@ -1,0 +1,219 @@
+body, main, header, div, section, h4, figure, img, figcaption, input, button, p, td, tr, th, table {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header figure {
+    background-color: rgba(54, 79, 199, 1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header figure figcaption {
+    display: none;
+}
+
+#top {
+    background-color: #E9ECEF;
+}
+
+button {
+    cursor: pointer;
+}
+
+.input--botao {
+    display: flex;
+}
+
+.input--botao button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #364FC7;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+#pesquisa {
+    font-family: 'Inter', sans-serif;
+    margin-left: 100px;
+}
+
+#pesquisa h4 {
+    font-size: 12px;
+    padding: 20px 0 10px 0;
+}
+
+.lupa {
+    background: #F5F5F5;
+    border-radius: 8px;
+    width: 301px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 7.5px;
+}
+
+#pesquisa img {
+    width: 14px;
+    height: 14px;
+    margin-left: 15px;
+}
+
+#pesquisa input {
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#pesquisa input:focus {
+    outline: 0;
+}
+
+#pesquisa p {
+    font-size: 10px;
+    color: #868E96;
+    margin: 10px 0 36px;
+}
+
+table thead {
+    width: 84vw;
+    height: 70px;
+    background: #364FC7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 0 0 0 100px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+table thead h4 {
+    font-weight: 100;
+}
+
+table thead tr th button {
+    background: #4058CA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+    border-radius: 8px;
+}
+
+table thead tr th:first-child {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table tbody tr td:first-child {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table tbody tr:nth-child(2n+1){
+    background-color: #F8F9FA;
+}
+
+table thead tr th:nth-child(2) {
+    border-right: 2px solid #E9ECEF;
+    width: 450px;
+    height: 70px;
+}
+
+table tbody tr td:nth-child(2) {
+    border-right: 2px solid #E9ECEF;
+    width: 450px;
+    height: 70px;
+}
+
+table thead tr th:nth-child(3) {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table tbody tr td:nth-child(3) {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table thead tr th:nth-child(4) {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table tbody tr td:nth-child(4) {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table thead tr th:nth-child(5) {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table tbody tr td:nth-child(5) {
+    border-right: 2px solid #E9ECEF;
+    width: 150px;
+    height: 70px;
+}
+
+table thead tr th:last-child {
+    
+    width: 110px;
+    height: 70px;
+}
+
+table tbody tr td:last-child {
+    width: 110px;
+    height: 70px;
+}
+
+table #botao--posicao {
+    
+}
+
+table tbody tr{
+    width: 84vw;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 0 0 0 100px;
+    font-weight: 100;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+table tbody tr td {
+    color: #878787;
+}
+
+table tbody tr td figure {
+    display: flex;
+}
+
+table tbody tr td figure img {
+    width: 28px;
+    height: 20px;
+}
+
+table tbody tr td figure figcaption {
+    display: none;
+}
+
+
+
+
+/*:nth-child()*/
